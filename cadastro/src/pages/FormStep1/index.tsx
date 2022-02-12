@@ -3,7 +3,7 @@ import * as C from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, Component, useEffect } from 'react';
-import api from "../../services/api";
+
 import axios from 'axios';
 
 

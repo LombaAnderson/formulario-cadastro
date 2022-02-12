@@ -40,7 +40,6 @@ export enum FormActions {
     setName,
     setLevel,
     setEmail,
-    setCadastro,
     setGithub
 }
 const formReducer = (state: State, action: Action) => {

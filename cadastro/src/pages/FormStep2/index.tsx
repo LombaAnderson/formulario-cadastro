@@ -4,7 +4,7 @@ import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, useEffect } from 'react';
 import { SelectOption } from '../../components/SelectOption';
-import api from "../../services/api";
+
 
 export const FormStep2 = () => {
     const history = useHistory();

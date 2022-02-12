@@ -2,18 +2,12 @@ import { useHistory, Link } from 'react-router-dom';
 import * as C from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
-import { ChangeEvent, useEffect, useState } from 'react';
-import api from "../../services/api";
-
-
-
+import { ChangeEvent, useEffect } from 'react';
 
 export const FormStep3 = () => {
     const history = useHistory();
     const { state, dispatch } = useForm();
 
-    
-      
     useEffect(() => {
         if(state.name === '') {
             history.push('/');
@@ -47,9 +41,8 @@ export const FormStep3 = () => {
     }
 
     return (
-        
-        <Theme >
-            <C.Container >
+        <Theme>
+            <C.Container>
                 <p>Passo 3/3</p>
                 <h1>Bacana {state.name}, onde achamos você?</h1>
                 <p>Preencha com seus contatos para conseguirmos entrar em contato.</p>
@@ -63,28 +56,19 @@ export const FormStep3 = () => {
                         value={state.email}
                         onChange={handleEmailChange}
                     />
-                    
                 </label>
 
                 <label>
-                    Qual seu Github?
+                    Qual seu GitHub?
                     <input
                         type="url"
                         value={state.github}
                         onChange={handleGithubChange}
                     />
-                    
                 </label>
 
-                <Link to="/step2" className="backButton">Voltar</Link>
-                
-                <button onClick={handleNextStep}>Finalizar Cadastro</button>
-
-                
+                <Link to="/step4" className="backButton">Finalizar Cadastro</Link>
             </C.Container>
         </Theme>
-            );
-        }
-
- 
-
+    );
+}
