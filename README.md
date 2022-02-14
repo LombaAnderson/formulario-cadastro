@@ -23,7 +23,7 @@ Na construção da API no Nest.js é possível retornar os usuários, fazer a li
 <img src="https://user-images.githubusercontent.com/60937513/153812599-7629f068-4ffc-490d-a6d4-cba375074ba3.png" width="800" />
 </div>
 
-## Uso do Swagger na API Nest
+## Uso do Swagger na API do Nest.js
 <div align="center">
 <img src="https://user-images.githubusercontent.com/60937513/153941484-c3e3ab11-9aa5-4fcc-86c4-ee65d2721888.png" width="800" />
 </div>
