@@ -25,10 +25,6 @@ React-Router-Dom(responsável pelas rotas das três páginas criadas). Segue aba
 <img src="https://user-images.githubusercontent.com/60937513/153812599-7629f068-4ffc-490d-a6d4-cba375074ba3.png" width="800" />
 </div>
 
-
-
-https://user-images.githubusercontent.com/60937513/153812599-7629f068-4ffc-490d-a6d4-cba375074ba3.png
-
 # Como executar o projeto
 
 # Primeiramente para instalar tanto o React.js quanto o Nest.js é preciso ter instalado o Node.js.
