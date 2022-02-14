@@ -67,7 +67,8 @@ export const FormStep3 = () => {
                     />
                 </label>
 
-                <Link to="/step4" className="backButton">Finalizar Cadastro</Link>
+                
+                 <button onClick={handleNextStep}>Finalizar Cadastro</button>
             </C.Container>
         </Theme>
     );
