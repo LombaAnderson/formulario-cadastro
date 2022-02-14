@@ -27,7 +27,7 @@ React-Router-Dom(responsável pelas rotas das três páginas criadas). Segue aba
 
 # Como executar o projeto
 
-# Primeiramente para instalar tanto o React.js quanto o Nest.js é preciso ter instalado o Node.js.
+## Primeiramente para instalar tanto o React.js quanto o Nest.js é preciso ter instalado o Node.js.
 
 ## Frontend
 - Pré-requisitos: React.js e bibliotecas necessárias.
