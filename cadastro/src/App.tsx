@@ -1,27 +1,20 @@
 import { Router } from './router';
-import { FormProvider } from './contexts/FormContext';
-import React, {Component, useEffect, useState} from 'react';
-import { appendFile } from 'fs';
-import axios from 'axios';
+import { FormProvider } from './contexts/FormContext'; 
+import { useFetch } from './hooks/useFetch';
 
-type Repository ={
+
+type Cadastro ={
   name: string;
   level: string;
   email: string;
   github: string;
+  description: string;
 }
 
 
-const App = () => {
- const[repositores, setRepositories] = useState<Repository[]>([])
-  
- useEffect(() =>{
-   fetch('http://localhost:3000/api')
-   .then(response=>response.json())
-   .then(data=>{
-     setRepositories(data);
-   })
- }, [])
+function App(){
+const {data: cadastro, isFetching}= 
+useFetch<Cadastro[]>('http://localhost:3000/usuario/listar');
  
  
  return (
@@ -29,13 +22,14 @@ const App = () => {
     <FormProvider>
        <Router />
       <ul>
-        {repositores.map(rep =>{
+        { isFetching && <p> Carregando...</p>}
+        {cadastro?.map(cadastro =>{
           return(
-            <li key={rep.name}>
-            <strong>{rep.level}</strong>
-            <strong>{rep.email}</strong>
-            <strong>{rep.github}</strong>
-            <p>(repo.description)</p>
+            <li key={cadastro.name}>
+            <strong>{cadastro.level}</strong>
+            <strong>{cadastro.email}</strong>
+            <strong>{cadastro.github}</strong>
+            <p>(cadastro.description)</p>
       
             </li>
           )
