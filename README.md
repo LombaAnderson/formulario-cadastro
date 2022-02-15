@@ -5,7 +5,7 @@
 # Sobre o projeto
 No projeto formulario-cadastro foi feito um site de cadastro de estagiários na página e construído tanto o frontend (pasta cadastro) quanto o backend em Nest.js 
 com a pasta api-cadastro. No cadastro em Reac.js foi desenvolvido um site de cadastro para o acesso à aplicação, a listagem e a visualização de cadastro de usuário. 
-Na construção da API no Nest.js é possível retornar os usuários, fazer a listagem dos mesmos e cadastro dos estagiários que se cadastrassem na página. Foi seguida como pedido a construção no backend o NestJS com Typescript e a conexão com banco de dados MySQL. No tocante ao frontend o React.js foi a vedete de seu desenvolvimento e as bibliotecas React-Router-Dom(responsável pelas rotas das três páginas criadas). No Nest foi feita a configuração com o Sweeger. Segue abaixo as instruções para rodar o projeto.
+Na construção da API no Nest.js é possível retornar os usuários, fazer a listagem dos mesmos e cadastro dos estagiários que se cadastrassem na página. Foi seguida como pedido a construção no backend o NestJS com Typescript e a conexão com banco de dados MySQL. No tocante ao frontend o React.js foi a vedete de seu desenvolvimento e as bibliotecas React-Router-Dom(responsável pelas rotas das três páginas criadas).Segue abaixo as instruções para rodar o projeto.
 
  
 ## Tela principal do site de cadastro
@@ -21,11 +21,6 @@ Na construção da API no Nest.js é possível retornar os usuários, fazer a li
 ## Imagem do banco de dados Mysql
 <div align="center">
 <img src="https://user-images.githubusercontent.com/60937513/153812599-7629f068-4ffc-490d-a6d4-cba375074ba3.png" width="800" />
-</div>
-
-## Uso do Swagger na API do Nest.js
-<div align="center">
-<img src="https://user-images.githubusercontent.com/60937513/153941484-c3e3ab11-9aa5-4fcc-86c4-ee65d2721888.png" width="800" />
 </div>
 
 # Como executar o projeto
