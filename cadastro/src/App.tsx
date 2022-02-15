@@ -1,40 +1,18 @@
 import { Router } from './router';
 import { FormProvider } from './contexts/FormContext'; 
-import { useFetch } from './hooks/useFetch';
 
 
-type Cadastro ={
-  name: string;
-  level: string;
-  email: string;
-  github: string;
-  
-}
 
 
 function App(){
-const {data: cadastro, isFetching}= 
-useFetch<Cadastro[]>('http://localhost:3000/usuario/listar');
+
  
  
  return (
 
     <FormProvider>
        <Router />
-      <ul>
-        { isFetching && <p> Carregando...</p>}
-        {cadastro?.map(cadastro =>{
-          return(
-            <li key={cadastro.name}>
-            <strong>{cadastro.level}</strong>
-            <strong>{cadastro.email}</strong>
-            <strong>{cadastro.github}</strong>
-          
       
-            </li>
-          )
-        })}
-      </ul>
 
     </FormProvider>
   );
