@@ -15,7 +15,7 @@ export default function App() {
 
   useEffect(()=>{
     api
-    .post("https://localhost:3000/usuario/listar",{
+    .post("https://localhost:3000/",{
             name: "Anderson",
             nivel: "2",
             email: "lombanderson@gmail.com",
