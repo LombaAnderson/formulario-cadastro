@@ -8,7 +8,7 @@ type Cadastro ={
   level: string;
   email: string;
   github: string;
-  description: string;
+  
 }
 
 
@@ -29,7 +29,7 @@ useFetch<Cadastro[]>('http://localhost:3000/usuario/listar');
             <strong>{cadastro.level}</strong>
             <strong>{cadastro.email}</strong>
             <strong>{cadastro.github}</strong>
-            <p>(cadastro.description)</p>
+          
       
             </li>
           )
