@@ -55,7 +55,7 @@ export const FormStep3 = () => {
                 <p>Preencha com seus contatos para conseguirmos entrar em contato.</p>
 
                 <hr/>
-                <form action="/usuario/listar" method="POST">
+                
                 <label>
                     Qual seu e-mail?
                     <input
@@ -80,7 +80,7 @@ export const FormStep3 = () => {
                 
                 <button onClick={handleNextStep}>Finalizar Cadastro</button>
 
-                </form>
+                
             </C.Container>
         </Theme>
             );
