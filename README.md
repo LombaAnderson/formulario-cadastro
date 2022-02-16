@@ -5,7 +5,7 @@
 # Sobre o projeto
 No projeto formulario-cadastro foi feito um site de cadastro de estagiários na página e construído tanto o frontend (pasta cadastro) quanto o backend em Nest.js 
 com a pasta api-cadastro. No cadastro em Reac.js foi desenvolvido um site de cadastro para o acesso à aplicação, a listagem e a visualização de cadastro de usuário. 
-Na construção da API no Nest.js é possível retornar os usuários, fazer a listagem dos mesmos e cadastro dos estagiários que se cadastrassem na página. Foi seguida como pedido a construção no backend o NestJS com Typescript e a conexão com banco de dados MySQL.No tocante ao frontend o React.js foi a vedete de seu desenvolvimento e as bibliotecas React-Router-Dom(responsável pelas rotas das três páginas criadas)Nesse projeto, ao seu término,foi desenvolvido no framework Socket-io client no React.js e Socket-io Websocket do lado do Nest.js para estabelecer comunicação entre o frontend e o backend.Segue abaixo as instruções para rodar o projeto.
+Na construção da API no Nest.js é possível retornar os usuários, fazer a listagem dos mesmos e cadastro dos estagiários que se cadastrassem na página. Foi seguida como pedido a construção no backend o NestJS com Typescript e a conexão com banco de dados MySQL.No tocante ao frontend o React.js foi a vedete de seu desenvolvimento e as bibliotecas React-Router-Dom(responsável pelas rotas das três páginas criadas)Nesse projeto, ao seu término,foi desenvolvido no framework Socket-io client no React.js e Socket-io Websocket do lado do Nest.js para estabelecer comunicação entre o frontend e o backend. Segue abaixo as instruções para rodar o projeto.
 
  
 ## Tela principal do site de cadastro
